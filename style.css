@@ -1,4 +1,114 @@
-body{
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
     font-family: 'Spartan', sans-serif;
 }
 
+h1,
+h2 {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+
+h1 {
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+h3,
+h4 {
+    margin: .25em 0;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: .8em;
+    color: hsl(333, 80%, 67%);
+    font-weight: 300;
+}
+
+p.intro-text {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.social-proof {
+    margin: auto 1em;
+}
+
+.all-ratings {
+    margin-bottom: 3em;
+}
+
+.star-rating {
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-radius: .8em;
+}
+
+.stars {
+    height: 1em;
+    margin: auto;
+    width: 6.8em;
+    background-image: url("images/icon-star.svg");
+    background-repeat: space;
+}
+
+.user {
+    display: flex;
+}
+
+.profile-pic {
+    margin: auto 0;
+    padding-right: 1em;
+}
+
+div.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info {
+    /* height: 55px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4em;
+}
+
+.user-testimonial {
+    background-color: hsl(300, 43%, 22%);
+}
+
+p.feedback-text {
+    color: hsl(300, 24%, 96%);
+    /* clear: left; */
+}
+
+.user-testimonial {
+    padding: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
